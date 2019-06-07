@@ -1,0 +1,26 @@
+
+.site{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background-color: #D7E4BD;
+}
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 33.33%;
+    padding: 2px;
+  }
+.rcorners{
+    border-radius: 5px;
+    border: 2px solid #333333;
+    padding: 2px; 
+    width: 200;
+    height: 20px; 
+    color: #73AD21;
+    align-content: center;
+    justify-content: center;
+  }
+  
