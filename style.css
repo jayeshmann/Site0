@@ -13,6 +13,12 @@
     flex: 33.33%;
     padding: 2px;
   }
+
+.columnP{
+   /*flex: 10%;*/
+    padding: 2px;
+  }
+
 .rcorners{
     border-radius: 5px;
     border: 2px solid #333333;
@@ -20,7 +26,53 @@
     width: 200;
     height: 20px; 
     color: #73AD21;
+    text-align: center;
     align-content: center;
-    justify-content: center;
   }
+
+.rcornersP{
+    border-radius: 5px;
+    border: 2px solid #333333; 
+    width: 60;
+    height: 20px; 
+    color: #73AD21;
+    text-align: center;
+    font-size: 1.5ex;
+    background-color: 
+  }
+
+  .rcornersPV{
+    border-radius: 5px;
+    border: 2px solid #333333; 
+    height: 20px;
+    color: #73AD21;
+    text-align: center;
+    font-size: 1.5ex;
+    background-color:
+    transform: rotate(-90deg);
+    writing-mode: horizontal-tb;
+    /*Rotaion of text*/
+
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+
+  /* IE */
+  -ms-transform: rotate(-90deg);
+
+  /* Opera */
+  -o-transform: rotate(-90deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  
+ 
+  }
+.columnP{
+    /*flex: 10%;*/
+     padding: 2px;
+     
+   }
   
