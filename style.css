@@ -75,4 +75,23 @@
      padding: 2px;
      
    }
+
+   .recrnersH{
+    border-radius: 5px;
+    width: 122px;
+    height: 30px;
+    text-align: center;
+    font-size: 2ex;
+    padding-right: 3px;
+    background-color: blue; 
+  }
+  #login{
+    border-radius: 5px;
+    width: 122px;
+    height: 30px;
+    text-align: center;
+    font-size: 2ex;
+    padding-right: 3px;
+    background-color: red;
+  }
   
