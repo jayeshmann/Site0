@@ -11,7 +11,7 @@
   
 .column {
     flex: 33.33%;
-    padding: 2px;
+    padding: 0px;
   }
 
 .columnP{
@@ -22,7 +22,7 @@
 .rcorners{
     border-radius: 5px;
     border: 2px solid #333333;
-    padding: 2px; 
+    padding: 0px; 
     width: 200;
     height: 20px; 
     color: #73AD21;
@@ -35,6 +35,7 @@
     border: 2px solid #333333; 
     width: 60;
     height: 20px; 
+    padding: 2px;
     color: #73AD21;
     text-align: center;
     font-size: 1.5ex;
@@ -42,31 +43,34 @@
   }
 
   .rcornersPV{
-    border-radius: 5px;
-    border: 2px solid #333333; 
-    height: 20px;
-    color: #73AD21;
-    text-align: center;
-    font-size: 1.5ex;
-    background-color:#953735;
-    transform: rotate(-90deg);
-    writing-mode: horizontal-tb;
-    /*Rotaion of text*/
-
-  /* Safari */
-  -webkit-transform: rotate(-90deg);
-
-  /* Firefox */
-  -moz-transform: rotate(-90deg);
-
-  /* IE */
-  -ms-transform: rotate(-90deg);
-
-  /* Opera */
-  -o-transform: rotate(-90deg);
-
-  /* Internet Explorer */
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    border-radius: 0px;
+      border: 2px solid #333333; 
+      height: 200px;
+      width: 20px;
+      padding: 0;
+      color: #73AD21;
+      text-align: center;
+      font-size: 1.8ex;
+      background-color:#953735;
+      transform: rotate(180deg);
+      writing-mode: vertical-lr;
+      /*Rotaion of text*/
+  
+    /* Safari */
+    -webkit-transform: rotate(180deg);
+  
+     /*Firefox*/
+    -moz-transform: rotate(180deg);
+  
+    /* IE */
+    -ms-transform: rotate(180deg);
+  
+    /* Opera */
+    -o-transform: rotate(180deg);
+  
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);*/
+    
   
  
   }
@@ -76,22 +80,53 @@
      
    }
 
-   .recrnersH{
+   .recrnersBtn{
     border-radius: 5px;
-    width: 122px;
-    height: 30px;
+    width: 126px;
+    height: 35px;
     text-align: center;
     font-size: 2ex;
     padding-right: 3px;
     background-color: blue; 
   }
-  #login{
+  #loginBtn{
     border-radius: 5px;
-    width: 122px;
-    height: 30px;
+    width: 126px;
+    height: 35px;
     text-align: center;
     font-size: 2ex;
     padding-right: 3px;
     background-color: red;
   }
+
+  .scorners{
+      border-radius: 0px;
+      border: 2px solid #333333; 
+      height: 294px;
+      width: 20px;
+      padding: 0;
+      color: #73AD21;
+      text-align: center;
+      font-size: 1.8ex;
+      background-color:#953735;
+      transform: rotate(180deg);
+      writing-mode: vertical-lr;
+      /*Rotaion of text*/
   
+    /* Safari */
+    -webkit-transform: rotate(180deg);
+  
+     /*Firefox*/
+    -moz-transform: rotate(180deg);
+  
+    /* IE */
+    -ms-transform: rotate(180deg);
+  
+    /* Opera */
+    -o-transform: rotate(180deg);
+  
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);*/
+    
+   
+    }
