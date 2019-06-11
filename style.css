@@ -13,7 +13,10 @@
     flex: 33.33%;
     padding: 0px;
   }
-
+.columnN{
+  flex: 28%;
+  padding: 2px;
+}
 .columnP{
    /*flex: 10%;*/
     padding: 2px;
@@ -35,7 +38,7 @@
     border: 2px solid #333333; 
     width: 60;
     height: 20px; 
-    padding: 2px;
+    padding: 1px;
     color: #73AD21;
     text-align: center;
     font-size: 1.5ex;
@@ -45,7 +48,7 @@
   .rcornersPV{
     border-radius: 0px;
       border: 2px solid #333333; 
-      height: 200px;
+      height: 183px;
       width: 20px;
       padding: 0;
       color: #73AD21;
